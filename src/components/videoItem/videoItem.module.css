@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 25rem;
+  margin-bottom: 0.1%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 1px solid lightgray;
+}
+
+.container:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: transform 200ms ease-in;
+}
+
+.thumbnails {
+  width: 40%;
+  height: auto;
+}
+
+.metadata {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 3.5rem;
+  padding: 0;
+  margin-left: 2%;
+  overflow: visible;
+}
+
+.videoTitle {
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+.channelTitle {
+  font-size: 0.6rem;
+  margin: 0;
+}
