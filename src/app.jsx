@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "./components/header/header.css";
 import Header from "./components/header/header";
 import VideoList from "./components/videoList/videoList";
 
