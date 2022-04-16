@@ -4,7 +4,6 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  position: relative;
   line-height: 2em;
 }
 .header {
@@ -86,7 +85,6 @@ button {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    position: relative;
     line-height: 2em;
   }
 
@@ -145,21 +143,19 @@ button {
 }
 /* mobile version */
 @media screen and (max-width: 767px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2em;
+  }
+
   .header {
     box-sizing: border-box;
     width: 100vw;
     height: 2rem;
     background-color: black;
     border: 1px solid black;
-  }
-
-  header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    line-height: 2em;
   }
 
   .logo {
